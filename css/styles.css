@@ -23,20 +23,20 @@ a {
     color: #4d5ae5;
 }
 
-.header-logo {
-    margin-right: 76px;
-}
-
 .header-logo .logo-part {
     color: #2e2f42;
 }
 
-.foter-logo {
-    margin-bottom: 16px;
+.footer-logo .logo-part {
+    color: #f4f4fd;
 }
 
-.foter-logo .logo-part {
-    color: #f4f4fd;
+.footer-logo-text {
+    font-size: 14px;
+    color: #333;
+    line-height: 1.5;
+    margin: 0;
+    text-align: center;
 }
 
 .nav-link {
@@ -65,7 +65,7 @@ a {
     color: #434455;
 }
 
-.page-foter {
+.page-footer {
     background-color: #2e2f42;
 }
 
@@ -125,10 +125,6 @@ a {
     background-color: #FFFFFF;
 }
 
-.section-team .team-member img {
-    width: 360px;
-}
-
 .section-team .team-member h3 {
     font-weight: 500;
     font-size: 20px;
@@ -144,7 +140,9 @@ a {
     color: #434455;
 }
 
-.page-foter p {
+
+
+.page-footer p {
     line-height: 1.5;
     color: var(--footer-text-color, #F4F4FD);
     letter-spacing: 0.02em;
@@ -157,10 +155,6 @@ a {
     letter-spacing: 0.02em;
     text-transform: capitalize;
     color: #2e2f42;
-}
-
-.section-fourth .image-container img {
-    width: 360px;
 }
 
 .section-fourth .image-container h3 {
