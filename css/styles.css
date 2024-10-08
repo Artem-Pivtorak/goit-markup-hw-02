@@ -24,19 +24,7 @@ a {
 }
 
 .header-logo .logo-part {
-    color: #2e2f42;
-}
-
-.footer-logo .logo-part {
-    color: #f4f4fd;
-}
-
-.footer-logo-text {
-    font-size: 14px;
-    color: #333;
-    line-height: 1.5;
-    margin: 0;
-    text-align: center;
+    color: #422e36;
 }
 
 .nav-link {
@@ -65,15 +53,11 @@ a {
     color: #434455;
 }
 
-.page-footer {
-    background-color: #2e2f42;
-}
-
 .section-header {
     background-color: #2e2f42;
 }
 
-.section-header h1 {
+.section-header {
     font-size: 56px;
     line-height: 1.07;
     text-align: center;
@@ -112,7 +96,7 @@ a {
     background-color: #F4F4FD;
 }
 
-.section-team h2 {
+.section-team {
     font-size: 36px;
     line-height: 1.11;
     text-align: center;
@@ -125,7 +109,7 @@ a {
     background-color: #FFFFFF;
 }
 
-.section-team .team-member h3 {
+.section-team .team-member {
     font-weight: 500;
     font-size: 20px;
     line-height: 1.2;
@@ -133,7 +117,7 @@ a {
     color: #2e2f42;
 }
 
-.section-team .team-member p {
+.section-team .team-member {
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.02em;
@@ -142,7 +126,7 @@ a {
 
 
 
-.page-footer p {
+.page-footer {
     line-height: 1.5;
     color: var(--footer-text-color, #F4F4FD);
     letter-spacing: 0.02em;
@@ -211,18 +195,46 @@ a {
     background-color: #404BBF;
 }
 
+.section-title-team {
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 1.11;
+    letter-spacing: 0.02em;
+    text-align: center;
+    text-transform: capitalize;
+    color: #2e2f42;
+}
+
 .section-features .item-title {
     font-weight: 500;
     font-size: 20px;
     line-height: 1.2;
     letter-spacing: 0.02em;
+    text-align: center;
     color: #2e2f42;
 }
 
 .section-features .item-text {
-    line-height: 1.5;
-    letter-spacing: 0.02em;
-    color: #434455;
     font-weight: 400;
     font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    text-align: center;
+    color: #434455;
+}
+
+.page-footer {
+    background-color: #2e2f42;
+}
+
+.footer-logo .logo-part {
+    color: #f4f4fd;
+}
+
+.footer-logo-text {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: #f4f4fd;
 }
