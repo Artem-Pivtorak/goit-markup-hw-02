@@ -61,9 +61,7 @@ color: #2e2f42;
     color: #434455;
 }
 
-.first-section,
-.features-section,
-.additional-section {
+.first-section {
     background-color: #2e2f42;
 }
 
@@ -95,13 +93,14 @@ color: #2e2f42;
     background-color: #404BBF;
 }
 
-.section-title, .section-title-Portfolio {
+.section-title, .section-title-portfolio {
     font-weight: 700;
     font-size: 36px;
     line-height: 1.11;
     text-align: center;
     letter-spacing: 0.02em;
-    color: #434455;
+    text-transform: capitalize;
+    color: #2e2f42;
 }
 
 .item-title {
@@ -123,6 +122,10 @@ color: #2e2f42;
 
 .page-footer {
     background-color: #2e2f42;
+}
+
+.team-item {
+    background-color: #fff;
 }
 
 .footer-logo-text {
