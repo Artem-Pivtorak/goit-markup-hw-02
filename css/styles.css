@@ -95,22 +95,13 @@ color: #2e2f42;
     background-color: #404BBF;
 }
 
-.section-title {
+.section-title, .section-title-Portfolio {
     font-weight: 700;
     font-size: 36px;
     line-height: 1.11;
     text-align: center;
     letter-spacing: 0.02em;
     color: #434455;
-}
-
-.section-title-Portfolio {
-    font-weight: 700;
-    font-size: 36px;
-    line-height: 1.11;
-    letter-spacing: 0.02em;
-    text-align: center;
-    color: #2e2f42;
 }
 
 .item-title {
