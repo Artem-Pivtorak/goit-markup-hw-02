@@ -90,14 +90,23 @@ a {
     line-height: 1.11;
     text-align: center;
     letter-spacing: 0.02em;
-    text-transform: capitalize;
+    text-transform: uppercase;
+    color: #434455;
+}
+
+.section-title-Portfolio {
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 1.11;
+    letter-spacing: 0.02em;
+    text-align: center;
     color: #2e2f42;
 }
 
 .item-title {
     font-weight: 500;
     font-size: 20px;
-    line-height: 1.2;
+    line-height: 1.17;
     letter-spacing: 0.02em;
     color: #2e2f42;
 }
@@ -110,18 +119,9 @@ a {
     color: #434455;
 }
 
-.team-item img,
-.app-item img {
-    width: 360px;
-}
-
-.page-footer {
-    text-align: center;
-    padding: 20px;
-    background-color: #2e2f42;
-}
-
 .footer-logo-text {
-    font-size: 16px;
-    color: #fff;
+    font-size: 12px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: #f4f4fd;
 }
