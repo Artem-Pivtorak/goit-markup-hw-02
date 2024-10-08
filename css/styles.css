@@ -178,20 +178,31 @@ a {
     background-color: #2e2f42;
 }
 
-.section-title {
+.section-title-main {
+    font-weight: 700;
     font-size: 56px;
+    line-height: 1.07;
+    letter-spacing: 0.02em;
+    text-align: center;
+    color: #fff;
+}
+
+.section-title {
+    font-weight: 700;
+    font-size: 36px;
     line-height: 1.07;
     text-align: center;
     letter-spacing: 0.02em;
-    color: #ffffff;
+    color: #2e2f42;
 }
 
 .order-button {
     background-color: #4D5AE5;
     font-weight: 500;
+    font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.04em;
-    color: #ffffff;
+    color: #fff;
     cursor: pointer;
 }
 
@@ -214,19 +225,4 @@ a {
     color: #434455;
     font-weight: 400;
     font-size: 16px;
-}
-
-.section-team .team-member{
-    font-weight: 500;
-    font-size: 20px;
-    line-height: 1.2;
-    letter-spacing: 0.02em;
-    color: #2e2f42;
-}
-
-.section-team .team-member{
-    font-size: 16px;
-    line-height: 1.5;
-    letter-spacing: 0.02em;
-    color: #434455;
 }
