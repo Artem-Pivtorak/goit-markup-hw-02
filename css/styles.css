@@ -55,7 +55,8 @@ a {
 
 .first-section,
 .features-section,
-.team-section {
+.team-section,
+.additional-section {
     background-color: #2e2f42;
 }
 
@@ -86,9 +87,10 @@ a {
 .section-title {
     font-weight: 700;
     font-size: 36px;
-    line-height: 1.07;
+    line-height: 1.11;
     text-align: center;
     letter-spacing: 0.02em;
+    text-transform: capitalize;
     color: #2e2f42;
 }
 
@@ -108,35 +110,18 @@ a {
     color: #434455;
 }
 
-.section-light {
-    background-color: #F4F4FD;
-}
-
-.section-title-team {
-    font-weight: 700;
-    font-size: 36px;
-    line-height: 1.11;
-    letter-spacing: 0.02em;
-    text-align: center;
-    text-transform: capitalize;
-    color: #2e2f42;
+.team-item img,
+.app-item img {
+    width: 360px;
 }
 
 .page-footer {
+    text-align: center;
+    padding: 20px;
     background-color: #2e2f42;
-    line-height: 1.5;
-    color: #f4f4fd;
-    letter-spacing: 0.02em;
-}
-
-.footer-logo .logo-part {
-    color: #f4f4fd;
 }
 
 .footer-logo-text {
-    font-weight: 400;
     font-size: 16px;
-    line-height: 1.5;
-    letter-spacing: 0.02em;
-    color: #f4f4fd;
+    color: #fff;
 }
