@@ -216,7 +216,7 @@ a {
     font-size: 16px;
 }
 
-.section-team .team-member h3 {
+.section-team .team-member{
     font-weight: 500;
     font-size: 20px;
     line-height: 1.2;
@@ -224,7 +224,7 @@ a {
     color: #2e2f42;
 }
 
-.section-team .team-member p {
+.section-team .team-member{
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.02em;
