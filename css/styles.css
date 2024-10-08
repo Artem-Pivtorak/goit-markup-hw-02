@@ -24,7 +24,7 @@ a {
 }
 
 .header-logo .logo-part {
-    color: #422e36;
+    color: #2e2f42;
 }
 
 .nav-link {
@@ -53,109 +53,6 @@ a {
     color: #434455;
 }
 
-.section-header {
-    background-color: #2e2f42;
-}
-
-.section-header {
-    font-size: 56px;
-    line-height: 1.07;
-    text-align: center;
-    letter-spacing: 0.02em;
-    color: #ffffff;
-}
-
-.section-header .button {
-    background-color: #4D5AE5;
-    font-weight: 500;
-    line-height: 1.5;
-    letter-spacing: 0.04em;
-    color: #ffffff;
-    cursor: pointer;
-}
-
-.section-header .button:hover,
-.section-header .button:focus {
-    background-color: #404BBF;
-}
-
-.section-features .item-title {
-    font-weight: 500;
-    font-size: 20px;
-    line-height: 1.2;
-    letter-spacing: 0.02em;
-    color: #2e2f42;
-}
-
-.section-features .item-text {
-    line-height: 1.5;
-    letter-spacing: 0.02em;
-}
-
-.section-light {
-    background-color: #F4F4FD;
-}
-
-.section-team {
-    font-size: 36px;
-    line-height: 1.11;
-    text-align: center;
-    letter-spacing: 0.02em;
-    text-transform: capitalize;
-    color: #2e2f42;
-}
-
-.section-team .team-member {
-    background-color: #FFFFFF;
-}
-
-.section-team .team-member {
-    font-weight: 500;
-    font-size: 20px;
-    line-height: 1.2;
-    letter-spacing: 0.02em;
-    color: #2e2f42;
-}
-
-.section-team .team-member {
-    font-size: 16px;
-    line-height: 1.5;
-    letter-spacing: 0.02em;
-    color: #434455;
-}
-
-
-
-.page-footer {
-    line-height: 1.5;
-    color: var(--footer-text-color, #F4F4FD);
-    letter-spacing: 0.02em;
-}
-
-.section-fourth h2 {
-    font-size: 36px;
-    line-height: 1.11;
-    text-align: center;
-    letter-spacing: 0.02em;
-    text-transform: capitalize;
-    color: #2e2f42;
-}
-
-.section-fourth .image-container h3 {
-    font-weight: 500;
-    font-size: 20px;
-    line-height: 1.2;
-    letter-spacing: 0.02em;
-    color: #2e2f42;
-}
-
-.section-fourth .image-container p {
-    font-size: 16px;
-    line-height: 1.5;
-    letter-spacing: 0.02em;
-    color: #434455;
-}
-
 .first-section,
 .features-section,
 .team-section {
@@ -169,15 +66,6 @@ a {
     letter-spacing: 0.02em;
     text-align: center;
     color: #fff;
-}
-
-.section-title {
-    font-weight: 700;
-    font-size: 36px;
-    line-height: 1.07;
-    text-align: center;
-    letter-spacing: 0.02em;
-    color: #2e2f42;
 }
 
 .order-button {
@@ -195,6 +83,35 @@ a {
     background-color: #404BBF;
 }
 
+.section-title {
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 1.07;
+    text-align: center;
+    letter-spacing: 0.02em;
+    color: #2e2f42;
+}
+
+.item-title {
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 1.2;
+    letter-spacing: 0.02em;
+    color: #2e2f42;
+}
+
+.item-text {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: #434455;
+}
+
+.section-light {
+    background-color: #F4F4FD;
+}
+
 .section-title-team {
     font-weight: 700;
     font-size: 36px;
@@ -205,26 +122,11 @@ a {
     color: #2e2f42;
 }
 
-.section-features .item-title {
-    font-weight: 500;
-    font-size: 20px;
-    line-height: 1.2;
-    letter-spacing: 0.02em;
-    text-align: center;
-    color: #2e2f42;
-}
-
-.section-features .item-text {
-    font-weight: 400;
-    font-size: 16px;
-    line-height: 1.5;
-    letter-spacing: 0.02em;
-    text-align: center;
-    color: #434455;
-}
-
 .page-footer {
     background-color: #2e2f42;
+    line-height: 1.5;
+    color: #f4f4fd;
+    letter-spacing: 0.02em;
 }
 
 .footer-logo .logo-part {
